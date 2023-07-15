@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
 import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Layout />
+      {/* <p className="border border-solid border-red-500">something</p> */}
     </div>
   );
 }
