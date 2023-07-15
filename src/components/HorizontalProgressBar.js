@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../components/HorizontalProgressBar.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const HorizontalProgressBar = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div className="relative flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-7">

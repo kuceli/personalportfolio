@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Home = () => {
   const [text] = useTypewriter({
-    words: ["Developer", "Designer", "Writer"],
+    words: ["Software Developer", "Software Designer", "Writer"],
     loop: {},
     typeSpeed: 120,
     deleteSpeed: 80,
@@ -29,7 +29,7 @@ const Home = () => {
         data-aos="fade-up"
       >
         <p className="font-bold text-[55px] pb-5">
-          KUCELI <span className="">ENGLAMA</span>
+          KUCELI <span className="text-[#FFBC6A]">ENGLAMA</span>
         </p>
         <div className="w-24 h-1 bg-[#333333]"></div>
         <p className="font-normal text-2xl py-8 text-[#FFBC6A]">
