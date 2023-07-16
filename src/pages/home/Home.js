@@ -30,10 +30,10 @@ const Home = () => {
       >
         <p className="font-bold text-[55px] pb-5">
           KUCELI
-          {/* <span className="text-[#FFBC6A]">ENGLAMA</span> */}
-          <span class="ml-3 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#FFBC6A] relative inline-block">
+          <span className="text-[#FFBC6A]"> ENGLAMA</span>
+          {/* <span class="ml-3 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#FFBC6A] relative inline-block">
             <span class="relative text-white">ENGLAMA</span>
-          </span>
+          </span> */}
         </p>
         <div className="w-24 h-1 bg-[#333333]"></div>
         <p className="font-normal text-2xl py-8 text-[#FFBC6A]">
