@@ -23,7 +23,7 @@ const About = () => {
           </div>
         </div>
         {/* About Me Details */}
-        <div className="flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[14px] leading-6 mt-7 ">
+        <div className="flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-7 ">
           <div className="w-[50%] flex flex-col justify-between text-justify ">
             <p>
               Hi there! My name is
@@ -72,7 +72,7 @@ const About = () => {
           </div>
         </div>
         {/* Services and Interests */}
-        <div className="flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[14px] leading-6 mt-12">
+        <div className="flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-12">
           <div className="w-[50%]">
             <div className="flex items-center justify-between pb-7">
               <p className="w-[40%] font-bold tracking-[0.35rem] text-[#333333] text-[16px]">
@@ -88,25 +88,25 @@ const About = () => {
                 <span className="text-[#FFBC6A] ">
                   <AiOutlineAntDesign size={16} />
                 </span>
-                <p> Web Development</p>
+                <p> Software Development</p>
               </li>
               <li className="flex items-center gap-x-5 pb-2">
                 <span className="text-[#FFBC6A] ">
                   <AiOutlineAntDesign size={16} />
                 </span>
-                <p> Web Design</p>
+                <p> Software Design</p>
               </li>
               <li className="flex items-center gap-x-5 pb-2">
                 <span className="text-[#FFBC6A] ">
                   <AiOutlineAntDesign size={16} />
                 </span>
-                <p> Web Development</p>
+                <p> Software Testing & Maintenance </p>
               </li>
               <li className="flex items-center gap-x-5 pb-2">
                 <span className="text-[#FFBC6A] ">
                   <AiOutlineAntDesign size={16} />
                 </span>
-                <p> Creative Writing</p>
+                <p>Creative Writing </p>
               </li>
             </ul>
           </div>
@@ -137,7 +137,7 @@ const About = () => {
                 <span className="text-[#FFBC6A] ">
                   <AiOutlineAntDesign size={16} />
                 </span>
-                <p> Working out</p>
+                <p> Working Out</p>
               </li>
               <li className="flex items-center gap-x-5 pb-2">
                 <span className="text-[#FFBC6A] ">

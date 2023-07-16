@@ -47,10 +47,6 @@ const Contact = () => {
             title: `<h5 style='color:red'>Ooops, something went wrong</h5>`,
             confirmButtonColor: "red",
           });
-
-          setName("");
-          setEmail("");
-          setMessage("");
         }
       );
   };
@@ -127,7 +123,7 @@ const Contact = () => {
             required
             onChange={(e) => setEmail(e.target.value)}
             name="from_email"
-            className="p-3 border border-solid border-[#E5E9ED]-500 bg-[#F6FBFF] hover:border-[#ffbc6a] focus:border-[#ffbc6a] text-sm w-full outline-none"
+            className=" p-3 border border-solid border-[#E5E9ED]-500 bg-[#F6FBFF] hover:border-[#ffbc6a] focus:border-[#ffbc6a] text-sm w-full outline-none"
           />
           <textarea
             placeholder="Message"
@@ -140,7 +136,7 @@ const Contact = () => {
           <input
             type="submit"
             style={ButtonStyle}
-            className="bg-[#333333] hover:bg-[#F6FBFF] text-[#ffffff] hover:text-[#333333] w-[50%] cursor-pointer"
+            className=" bg-[#333333] hover:bg-[#F6FBFF] text-[#ffffff] hover:text-[#333333] w-[50%] cursor-pointer"
             value="Send Message"
           />
         </form>

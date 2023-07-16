@@ -23,6 +23,9 @@ const Layout = () => {
     setActiveTab("tab4");
   };
 
+  const listStyle = {
+    cursor: "pointer",
+  };
   return (
     <div className="h-[100vh]  ">
       {/* Header */}
@@ -31,6 +34,7 @@ const Layout = () => {
           <li
             className={activeTab === "tab1" ? "active" : ""}
             onClick={handleTab1}
+            style={listStyle}
           >
             Home
           </li>
@@ -38,6 +42,7 @@ const Layout = () => {
           <li
             className={activeTab === "tab2" ? "active" : ""}
             onClick={handleTab2}
+            style={listStyle}
           >
             About
           </li>
@@ -45,6 +50,7 @@ const Layout = () => {
           <li
             className={activeTab === "tab3" ? "active" : ""}
             onClick={handleTab3}
+            style={listStyle}
           >
             Portfolio
           </li>
@@ -52,6 +58,7 @@ const Layout = () => {
           <li
             className={activeTab === "tab4" ? "active" : ""}
             onClick={handleTab4}
+            style={listStyle}
           >
             Contact
           </li>

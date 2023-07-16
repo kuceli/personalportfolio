@@ -24,7 +24,7 @@
   width: 95%;
   border-radius: 6px;
   background-color: #ffbc6a;
-  animation: progress 0.7s ease-in-out forwards;
+  animation: progress 2.5s ease-in-out forwards;
   opacity: 0;
 }
 

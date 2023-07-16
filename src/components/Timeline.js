@@ -25,9 +25,9 @@ const Timeline = () => {
         <div className="container right-container">
           <img src={WorkIcon} />
           <div className="text-box">
-            <h2 className="title">Omniswift Nigeria Limited</h2>
-            <p className="date">July 2021 - August 2021</p>
-            <p className="position">Intern</p>
+            <h2 className="title">Federal Mortgage Bank of Nigeria</h2>
+            <p className="date">August 2022 - May 2023</p>
+            <p className="position">NYSC | Graduate Intern</p>
             <span className="right-container-arrow"></span>
           </div>
         </div>
