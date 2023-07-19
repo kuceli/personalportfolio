@@ -4,7 +4,6 @@ function App() {
   return (
     <div>
       <Layout />
-      {/* <p className="border border-solid border-red-500">something</p> */}
     </div>
   );
 }

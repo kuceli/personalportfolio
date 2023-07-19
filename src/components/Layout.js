@@ -6,7 +6,6 @@ import About from "../pages/about/About";
 import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
 import "../components/Header.css";
-import { NavLink } from "react-router-dom";
 
 const Layout = () => {
   const [activeTab, setActiveTab] = useState("tab1");

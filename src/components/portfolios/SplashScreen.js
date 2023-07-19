@@ -1,15 +1,11 @@
 import React, { useRef, useEffect, useCallback } from "react";
 import { useSpring, animated } from "react-spring";
 import styled from "styled-components";
-import CloseIcon from "../../assets/close.svg";
 import { AiOutlineClose } from "react-icons/ai";
-import { Data } from "../../data/PortfolioCardsData";
 import Img1 from "../../assets/projects/img1.png";
 import Html from "../../assets/html.png";
 import Css from "../../assets/css.png";
 import Js from "../../assets/javascript.png";
-import Tailwindcss from "../../assets/tailwindcss.png";
-import ReactJs from "../../assets/react.png";
 
 const Background = styled.div`
   width: 100%;
@@ -36,27 +32,27 @@ const ModalWrapper = styled.div`
 
 const ModalContent = styled.div``;
 
-const CardModal = ({ showModal, setShowModal }) => {
+const SplashScreen = ({ showSplashScreenModal, setShowSplashScreenModal }) => {
   const modalRef = useRef();
   const animation = useSpring({
     config: {
       duration: 300,
     },
-    opacity: showModal ? 1 : 0,
-    transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
+    opacity: showSplashScreenModal ? 1 : 0,
+    transform: showSplashScreenModal ? `translateY(0%)` : `translateY(-100%)`,
   });
-  const closeModal = (e) => {
+  const closeSplashScreenModal = (e) => {
     if (modalRef.current === e.target) {
-      setShowModal(false);
+      setShowSplashScreenModal(false);
     }
   };
   const handleKeyPress = useCallback(
     (e) => {
-      if (e.key === "Escape" && showModal) {
-        setShowModal(false);
+      if (e.key === "Escape" && showSplashScreenModal) {
+        setShowSplashScreenModal(false);
       }
     },
-    [setShowModal, showModal]
+    [setShowSplashScreenModal, showSplashScreenModal]
   );
   useEffect(() => {
     document.addEventListener("keydown", handleKeyPress);
@@ -67,31 +63,26 @@ const CardModal = ({ showModal, setShowModal }) => {
 
   return (
     <>
-      {showModal ? (
-        <Background ref={modalRef} onClick={closeModal}>
+      {showSplashScreenModal ? (
+        <Background ref={modalRef} onClick={closeSplashScreenModal}>
           <animated.div style={animation}>
             <div className="sm:w-[600px] md:w-[700px] lg:w-[760px] mx-10 sm:mx-0 p-12">
               <div
                 className="cursor-pointer absolute right-2 top-2 border-2 border-solid border-white rounded-lg hover:rounded-full transition-all duration-600 p-1"
-                onClick={() => setShowModal((prev) => !prev)}
+                onClick={() => setShowSplashScreenModal((prev) => !prev)}
               >
                 <AiOutlineClose color="white" size={25} />
               </div>
-              <ModalWrapper showModal={showModal}>
+              <ModalWrapper showSplashScreenModal={showSplashScreenModal}>
                 <div className="px-0 sm:px-[2rem]">
-                  {/* {Data.map((card) => {
-                    return ( */}
                   <ModalContent>
-                    <div
-                      className="flex gap-x-8 items-center"
-                      // key={card.id}
-                    >
+                    <div className="flex gap-x-8 items-center">
                       <div className="w-[50%]">
                         <img src={Img1} className=" " />
                       </div>
                       <div className=" w-[50%] ">
                         <p className="font-bold text-3xl mb-3 tracking-wider">
-                          MEALY
+                          Splash Screen
                         </p>
                         <p className="text-sm mt-">
                           Contrary to popular belief, Lorem Ipsum is not simply
@@ -104,8 +95,7 @@ const CardModal = ({ showModal, setShowModal }) => {
                         <div className="flex gap-x-2  h-9 my-3">
                           <img src={Html} />
                           <img src={Css} />
-                          <img src={ReactJs} />
-                          <img src={Tailwindcss} />
+                          <img src={Js} />
                         </div>
                         <a
                           href="#_"
@@ -130,9 +120,6 @@ const CardModal = ({ showModal, setShowModal }) => {
                           </span>
                           <span class="relative font-medium">View Project</span>
                         </a>
-                        {/* <button className="bg-[#ffffff] hover:bg-[#333333] text-[#333333] hover:text-[#ffffff]">
-                          View Project
-                        </button> */}
                       </div>
                     </div>
                   </ModalContent>
@@ -148,4 +135,4 @@ const CardModal = ({ showModal, setShowModal }) => {
   );
 };
 
-export default CardModal;
+export default SplashScreen;
