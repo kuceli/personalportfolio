@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useCallback } from "react";
 import { useSpring, animated } from "react-spring";
 import styled from "styled-components";
 import { AiOutlineClose } from "react-icons/ai";
-import Img1 from "../../assets/projects/img1.png";
+import Img2 from "../../assets/projects/img2.png";
 import Html from "../../assets/html.png";
 import Css from "../../assets/css.png";
 import Tailwindcss from "../../assets/tailwindcss.png";
@@ -78,8 +78,8 @@ const Mealy = ({ showMealyModal, setShowMealyModal }) => {
                 <div className="px-0 sm:px-[2rem]">
                   <ModalContent>
                     <div className="flex gap-x-8 items-center">
-                      <div className="w-[50%]">
-                        <img src={Img1} className=" " />
+                      <div className="w-[50%] border border-solid border-[#333333]">
+                        <img src={Img2} className=" " />
                       </div>
                       <div className=" w-[50%] ">
                         <p className="font-bold text-3xl mb-3 tracking-wider">

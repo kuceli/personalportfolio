@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useCallback } from "react";
 import { useSpring, animated } from "react-spring";
 import styled from "styled-components";
 import { AiOutlineClose } from "react-icons/ai";
-import Img1 from "../../assets/projects/img1.png";
+import Img3 from "../../assets/projects/img3.png";
 import Html from "../../assets/html.png";
 import Css from "../../assets/css.png";
 import Js from "../../assets/javascript.png";
@@ -78,7 +78,7 @@ const ClonedSites = ({ showClonedSitesModal, setShowClonedSitesModal }) => {
                   <ModalContent>
                     <div className="flex gap-x-8 items-center">
                       <div className="w-[50%]">
-                        <img src={Img1} className=" " />
+                        <img src={Img3} className=" " />
                       </div>
                       <div className=" w-[50%] ">
                         <p className="font-bold text-3xl mb-3 tracking-wider">
@@ -88,9 +88,7 @@ const ClonedSites = ({ showClonedSitesModal, setShowClonedSitesModal }) => {
                           Contrary to popular belief, Lorem Ipsum is not simply
                           random text. It has roots in a piece of classical
                           Latin literature from 45 BC, making it over 2000 years
-                          old. Richard McClintock, a Latin professor at
-                          Hampden-Sydney College in Virginia, looked up one of
-                          the more obscure
+                          These projects were built using HTMK, CSS and JS.
                         </p>
                         <div className="flex gap-x-2  h-9 my-3">
                           <img src={Html} />
@@ -118,7 +116,9 @@ const ClonedSites = ({ showClonedSitesModal, setShowClonedSitesModal }) => {
                               ></path>
                             </svg>
                           </span>
-                          <span class="relative font-medium">View Project</span>
+                          <span class="relative font-medium">
+                            View Projects
+                          </span>
                         </a>
                       </div>
                     </div>

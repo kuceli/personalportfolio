@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Img1 from "../../assets/projects/img1.png";
+import Img2 from "../../assets/projects/img2.png";
+import Img3 from "../../assets/projects/img3.png";
+import Img4 from "../../assets/projects/img4.png";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Mealy from "../../components/portfolios/Mealy";
 import ClonedSites from "../../components/portfolios/ClonedSites";
@@ -27,107 +30,110 @@ const Cards = () => {
   };
   return (
     <div>
-      <div className="mt-5 w-[100%] h-[267px] ">
-        <ul className="columns-2">
-          {/* Mealy */}
-          <li className="relative mb-8 mr-4">
-            <div>
-              <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
-                <img
-                  src={Img1}
-                  alt="Mealy"
-                  className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
-                />
-              </div>
+      <div className="mt-9 w-[100%] h-[267px] ">
+        <ul className="flex justify-between px-2">
+          <div className="flex flex-col justify-between gap-y-7">
+            {/* Mealy */}
+            <li className="relative  w-[380px] h-[255px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] ">
+              <div>
+                <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
+                  <img
+                    src={Img2}
+                    alt="Mealy"
+                    className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
+                  />
+                </div>
+                <div
+                  className="shadow-md flex  justify-between items-center px-5 w-[89%] bg-[#ffffff] text-[#333333] h-14 absolute bottom-3 mx-5 cursor-pointer"
+                  onClick={openMealyModal}
+                >
+                  <div>
+                    <p className="font-medium">Mealy</p>
+                    <p className="text-xs font-base">Food Ordering App</p>
+                  </div>
 
-              <div
-                className="flex  justify-between items-center px-5 w-[89%] bg-[#ffffff] text-[#333333] h-14 absolute bottom-3 mx-5 cursor-pointer"
-                onClick={openMealyModal}
-              >
-                <div>
-                  <p className="font-medium">Mealy</p>
-                  <p className="text-xs font-base">Food Ordering App</p>
+                  <BsFillArrowRightCircleFill size={25} />
+                </div>
+              </div>
+            </li>
+            {/* Cloned Sites */}
+            <li className="relative w-[380px] h-[255px] shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+              <div>
+                <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
+                  <img
+                    src={Img3}
+                    className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
+                  />
                 </div>
 
-                <BsFillArrowRightCircleFill size={25} />
-              </div>
-            </div>
-          </li>
-          {/* Cloned Sites */}
-          <li className="relative mb-8 mr-4">
-            <div>
-              <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
-                <img
-                  src={Img1}
-                  className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
-                />
-              </div>
+                <div
+                  className="flex  justify-between items-center px-5 w-[89%] bg-[#ffffff] text-[#333333] h-14 absolute bottom-3 mx-5 cursor-pointer"
+                  onClick={openClonedSitesModal}
+                >
+                  <div>
+                    <p className="font-medium">Cloned Sites</p>
+                    <p className="text-xs font-base">
+                      Redesigned Webpages
+                      {/* <span>Netflix | Udemy | Instagram</span> */}
+                    </p>
+                  </div>
 
-              <div
-                className="flex  justify-between items-center px-5 w-[89%] bg-[#ffffff] text-[#333333] h-14 absolute bottom-3 mx-5 cursor-pointer"
-                onClick={openClonedSitesModal}
-              >
-                <div>
-                  <p className="font-medium">Cloned Sites</p>
-                  <p className="text-xs font-base">
-                    Redesigned Webpages
-                    {/* <span>Netflix | Udemy | Instagram</span> */}
-                  </p>
+                  <BsFillArrowRightCircleFill size={25} />
+                </div>
+              </div>
+            </li>
+          </div>
+          <div className="flex flex-col justify-between gap-y-7">
+            {/* Splash Screen */}
+            <li className="relative  w-[380px] h-[255px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] ">
+              <div>
+                <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
+                  <img
+                    src={Img1}
+                    className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
+                  />
                 </div>
 
-                <BsFillArrowRightCircleFill size={25} />
-              </div>
-            </div>
-          </li>
-          {/* Splash Screen */}
-          <li className="relative mb-8 mr-4">
-            <div>
-              <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
-                <img
-                  src={Img1}
-                  className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
-                />
-              </div>
+                <div
+                  className="flex  justify-between items-center px-5 w-[89%] bg-[#ffffff] text-[#333333] h-14 absolute bottom-3 mx-5 cursor-pointer"
+                  onClick={openSplashScreenModal}
+                >
+                  <div>
+                    <p className="font-medium">Splash Screen</p>
+                    <p className="text-xs font-base">Loading Screen</p>
+                  </div>
 
-              <div
-                className="flex  justify-between items-center px-5 w-[89%] bg-[#ffffff] text-[#333333] h-14 absolute bottom-3 mx-5 cursor-pointer"
-                onClick={openSplashScreenModal}
-              >
-                <div>
-                  <p className="font-medium">Splash Screen</p>
-                  <p className="text-xs font-base">Loading Screen</p>
+                  <BsFillArrowRightCircleFill size={25} />
+                </div>
+              </div>
+            </li>
+            {/* Mini Projects */}
+            <li className="relative  w-[380px] h-[255px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] ">
+              <div>
+                <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
+                  <img
+                    src={Img4}
+                    className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
+                  />
                 </div>
 
-                <BsFillArrowRightCircleFill size={25} />
-              </div>
-            </div>
-          </li>
-          {/* Mini Projects */}
-          <li className="relative mb-8 mr-4">
-            <div>
-              <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
-                <img
-                  src={Img1}
-                  className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
-                />
-              </div>
+                <div
+                  className="flex  justify-between items-center px-5 w-[89%] bg-[#ffffff] text-[#333333] h-14 absolute bottom-3 mx-5 cursor-pointer"
+                  onClick={openMiniProjectsModal}
+                >
+                  <div>
+                    <p className="font-medium">Mini Projects</p>
+                    <p className="text-xs font-base">
+                      Simple Practice Projects
+                      {/* <span>Calculator | Tic-Tac-Toe | To-do List</span> */}
+                    </p>
+                  </div>
 
-              <div
-                className="flex  justify-between items-center px-5 w-[89%] bg-[#ffffff] text-[#333333] h-14 absolute bottom-3 mx-5 cursor-pointer"
-                onClick={openMiniProjectsModal}
-              >
-                <div>
-                  <p className="font-medium">Mini Projects</p>
-                  <p className="text-xs font-base">
-                    Simple Practice Projects
-                    {/* <span>Calculator | Tic-Tac-Toe | To-do List</span> */}
-                  </p>
+                  <BsFillArrowRightCircleFill size={25} />
                 </div>
-
-                <BsFillArrowRightCircleFill size={25} />
               </div>
-            </div>
-          </li>
+            </li>
+          </div>
         </ul>
       </div>
       <div>
