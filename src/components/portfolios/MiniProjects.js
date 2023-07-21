@@ -6,6 +6,7 @@ import Img4 from "../../assets/projects/img4.png";
 import Html from "../../assets/html.png";
 import Css from "../../assets/css.png";
 import Js from "../../assets/javascript.png";
+import ReactJs from "../../assets/react.png";
 
 const Background = styled.div`
   width: 100%;
@@ -77,7 +78,7 @@ const MiniProjects = ({ showMiniProjectsModal, setShowMiniProjectsModal }) => {
                 <div className="px-0 sm:px-[2rem]">
                   <ModalContent>
                     <div className="flex gap-x-8 items-center">
-                      <div className="w-[50%] border border-solid border-[#333333]">
+                      <div className="w-[50%] ">
                         <img src={Img4} className=" " />
                       </div>
                       <div className=" w-[50%] ">
@@ -86,16 +87,21 @@ const MiniProjects = ({ showMiniProjectsModal, setShowMiniProjectsModal }) => {
                         </p>
                         <p className="text-sm mt-">
                           Contrary to popular belief, Lorem Ipsum is not simply
-                          random text. It has roots in a piece of classical
-                          These projects were built using HTMK, CSS and JS.
+                          A few of some projects that I have built to help
+                          sharpen my skills. Some are replicated projects while
+                          others are original designs. These projects were built
+                          using a mix of some or all of these language: HTML,
+                          CSS, JS and ReactJs.
                         </p>
                         <div className="flex gap-x-2  h-9 my-3">
                           <img src={Html} />
                           <img src={Css} />
                           <img src={Js} />
+                          <img src={ReactJs} />
                         </div>
                         <a
-                          href="#_"
+                          href="https://kucelienglamaminiprojects.netlify.app/"
+                          target="_blank"
                           class="relative inline-flex items-center px-10 py-2 overflow-hidden text-base font-medium text-[#333333] border-2 border-[#333333] hover:text-white group hover:bg-gray-50"
                         >
                           <span class="absolute left-0 block w-full h-0 transition-all bg-[#333333] opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
