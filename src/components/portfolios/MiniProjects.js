@@ -67,7 +67,7 @@ const MiniProjects = ({ showMiniProjectsModal, setShowMiniProjectsModal }) => {
       {showMiniProjectsModal ? (
         <Background ref={modalRef} onClick={closeMiniProjectsModal}>
           <animated.div style={animation}>
-            <div className="sm:w-[600px] md:w-[700px] lg:w-[760px] mx-10 sm:mx-0 p-12">
+            <div className="sm:w-[600px] md:w-[700px] lg:w-[680px] mx-10 sm:mx-0 p-12">
               <div
                 className="cursor-pointer absolute right-2 top-2 border-2 border-solid border-white rounded-lg hover:rounded-full transition-all duration-600 p-1"
                 onClick={() => setShowMiniProjectsModal((prev) => !prev)}

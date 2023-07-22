@@ -14,17 +14,17 @@ const About = () => {
       <div className="px-7 py-12 " data-aos="fade-up">
         {/* About Me Header */}
         <div className="flex items-center justify-between">
-          <p className="w-[20%] font-bold tracking-[0.35rem] text-[16px]">
+          <p className="sm:w-[30%] xl:w-[20%] font-bold tracking-[0.35rem] text-[14px] md:text-[16px]">
             ABOUT ME
           </p>
-          <div className="flex h-[2px] w-[80%]">
+          <div className="flex h-[2px] sm:w-[70%] xl:w-[80%]">
             <div className="h-[100%] w-[50%] bg-[#333333]"></div>
             <div className="h-[100%] w-[50%] bg-[#FFBC6A]"></div>
           </div>
         </div>
         {/* About Me Details */}
-        <div className="flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-7 ">
-          <div className="w-[50%] flex flex-col justify-between text-justify ">
+        <div className="flex flex-col md:flex-row gap-y-8 gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-7 ">
+          <div className="w-[100%] md:w-[50%] flex flex-col justify-between text-justify m-auto">
             <p>
               Hi there! My name is
               <span className="font-semibold"> Kuceli Englama.</span> I am an
@@ -38,7 +38,8 @@ const About = () => {
               knowledge necessary to make your project a success!
             </p>
           </div>
-          <div className="w-[50%]">
+
+          <div className="w-[50%] hidden md:block">
             <table className="">
               <tr className="">
                 <td className="font-semibold pb-2 ">Name:</td>
@@ -72,13 +73,13 @@ const About = () => {
           </div>
         </div>
         {/* Services and Interests */}
-        <div className="flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-12">
-          <div className="w-[50%]">
+        <div className="flex  flex-col sm:flex-row gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-12">
+          <div className="w-[100%] sm:w-[50%]">
             <div className="flex items-center justify-between pb-7">
-              <p className="w-[40%] font-bold tracking-[0.35rem] text-[#333333] text-[16px]">
+              <p className="md:w-[50%] xl:w-[40%] font-bold tracking-[0.35rem] text-[#333333] text-[16px]">
                 SERVICES
               </p>
-              <div className="h-[2px] w-[60%] flex">
+              <div className="h-[2px] md:w-[50%] xl:w-[60%] flex">
                 <div className="h-[100%] w-[50%] bg-[#333333]"></div>
                 <div className="h-[100%] w-[50%] bg-[#FFBC6A]"></div>
               </div>
@@ -110,12 +111,12 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="w-[50%]">
-            <div className="flex items-center justify-between pb-7">
-              <p className="w-[40%] font-bold tracking-[0.35rem] text-[#333333]">
+          <div className="w-[100%] sm:w-[50%]">
+            <div className="flex items-center justify-between mt-5 sm:mt-0 pb-7">
+              <p className="md:w-[50%] lg:w-[60%] xl:w-[40%] font-bold tracking-[0.35rem] text-[#333333]">
                 INTERESTS
               </p>
-              <div className="h-[2px] w-[60%] flex">
+              <div className="h-[2px] md:w-[50%] lg:w-[40%] xl:w-[60%] flex">
                 <div className="h-[100%] w-[50%] bg-[#333333]"></div>
                 <div className="h-[100%] w-[50%] bg-[#FFBC6A]"></div>
               </div>
@@ -150,10 +151,10 @@ const About = () => {
         </div>
         {/* Tools and Technologies */}
         <div className="mt-10 flex items-center justify-between">
-          <p className="w-[40%] font-bold tracking-[0.35rem] text-[16px]">
+          <p className="md:w-[40%] font-bold tracking-[0.35rem] text-[16px]">
             TOOLS & TECHNOLOGIES
           </p>
-          <div className="h-[2px] w-[60%] flex">
+          <div className="h-[2px] md:w-[60%] flex">
             <div className="h-[100%] w-[50%] bg-[#333333]"></div>
             <div className="h-[100%] w-[50%] bg-[#FFBC6A]"></div>
           </div>
@@ -161,13 +162,13 @@ const About = () => {
         <HorizontalProgressBar />
         {/* Education and Experience */}
         <div>
-          <div className="flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-12">
+          <div className="hidden md:flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-12">
             <div className="w-[50%]">
               <div className="flex items-center justify-between pb-7">
-                <p className="w-[40%] font-bold tracking-[0.35rem] text-[#333333] text-[16px]">
+                <p className="md:w-[60%] xl:w-[40%] font-bold tracking-[0.35rem] text-[#333333] text-[16px]">
                   EDUCATION
                 </p>
-                <div className="h-[2px] w-[60%] flex">
+                <div className="h-[2px] md:w-[40%] xl:w-[60%] flex">
                   <div className="h-[100%] w-[50%] bg-[#333333]"></div>
                   <div className="h-[100%] w-[50%] bg-[#FFBC6A]"></div>
                 </div>
@@ -175,16 +176,19 @@ const About = () => {
             </div>
             <div className="w-[50%]">
               <div className="flex items-center justify-between pb-7">
-                <p className="w-[40%] font-bold tracking-[0.35rem] text-[#333333]">
+                <p className="md:w-[60%] xl:w-[40%] font-bold tracking-[0.35rem] text-[#333333]">
                   EXPERIENCE
                 </p>
-                <div className="h-[2px] w-[60%] flex">
+                <div className="h-[2px] md:w-[40%] xl:w-[60%] flex">
                   <div className="h-[100%] w-[50%] bg-[#333333]"></div>
                   <div className="h-[100%] w-[50%] bg-[#FFBC6A]"></div>
                 </div>
               </div>
             </div>
           </div>
+          <p className="w-[100%] mt-12 font-bold tracking-[0.35rem] text-[#333333] text-[16px] block md:hidden">
+            EDUCATION & EXPERIENCE
+          </p>
           <div className="">
             <Timeline />
           </div>

@@ -25,10 +25,10 @@ const Home = () => {
   return (
     <>
       <div
-        className=" h-full flex flex-col justify-center pl-14"
+        className=" h-full flex flex-col justify-center pl-5 sm:pl-14"
         data-aos="fade-up"
       >
-        <p className="font-bold text-[55px] pb-5">
+        <p className="font-bold text-[45px] sm:text-[55px] pb-5">
           KUCELI
           <span className="text-[#FFBC6A]"> ENGLAMA</span>
           {/* <span class="ml-3 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#FFBC6A] relative inline-block">
@@ -36,7 +36,7 @@ const Home = () => {
           </span> */}
         </p>
         <div className="w-24 h-1 bg-[#333333]"></div>
-        <p className="font-normal text-2xl py-8 text-[#FFBC6A]">
+        <p className="font-normal text-xl sm:text-2xl py-8 text-[#FFBC6A]">
           Creative
           <span className="font-bold text-[#333333]">
             {" "}
@@ -68,13 +68,6 @@ const Home = () => {
             </span>
             <span class="relative font-medium">Resumé</span>
           </a>
-
-          {/* <button
-            style={ButtonStyle}
-            className="bg-[#333333] hover:bg-[#F6FBFF] text-[#ffffff] hover:text-[#333333]"
-          >
-            Download My Resume
-          </button> */}
         </div>
       </div>
     </>

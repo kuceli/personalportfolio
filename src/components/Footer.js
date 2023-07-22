@@ -4,7 +4,7 @@ import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   const style = { color: "#333333" };
   return (
-    <div className="flex justify-between items-center px-14 h-[7%] fixed bottom-0 w-[100%]">
+    <div className="hidden md:flex justify-between items-center px-14 h-[7%] fixed bottom-0 w-[100%]">
       <div style={style}>Copyright © 2023</div>
       <div className="flex gap-x-2">
         <a target="_blank" href="https://www.facebook.com/kuceli.englama">

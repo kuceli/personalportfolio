@@ -135,11 +135,13 @@
   }
   .text-box {
     font-size: 13px;
+    padding: 10px 15px;
   }
   .text-box .date,
   .text-box .position {
     margin-bottom: 10px;
   }
+
   .right-container {
     left: 0;
   }
@@ -152,5 +154,16 @@
     border-right: 15px solid #ffbc6a;
     border-left: 0;
     left: -15px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .text-box .date,
+  .text-box .position {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .text-box .title {
+    font-size: 13px;
   }
 }

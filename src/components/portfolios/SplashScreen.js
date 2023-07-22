@@ -64,73 +64,77 @@ const SplashScreen = ({ showSplashScreenModal, setShowSplashScreenModal }) => {
   return (
     <>
       {showSplashScreenModal ? (
-        <Background ref={modalRef} onClick={closeSplashScreenModal}>
-          <animated.div style={animation}>
-            <div className="sm:w-[600px] md:w-[700px] lg:w-[760px] mx-10 sm:mx-0 p-12">
-              <div
-                className="cursor-pointer absolute right-2 top-2 border-2 border-solid border-white rounded-lg hover:rounded-full transition-all duration-600 p-1"
-                onClick={() => setShowSplashScreenModal((prev) => !prev)}
-              >
-                <AiOutlineClose color="white" size={25} />
-              </div>
-              <ModalWrapper showSplashScreenModal={showSplashScreenModal}>
-                <div className="px-0 sm:px-[2rem]">
-                  <ModalContent>
-                    <div className="flex gap-x-8 items-center">
-                      <div className="w-[50%]">
-                        <img src={Img1} className=" " />
-                      </div>
-                      <div className=" w-[50%] ">
-                        <p className="font-bold text-3xl mb-3 tracking-wider">
-                          Splash Screen
-                        </p>
-                        <p className="text-sm mt-">
-                          Contrary to popular belief, Lorem Ipsum is not simply
-                          random text. It has roots in a piece of classical
-                          Latin literature from 45 BC, making it over 2000 years
-                          old. Richard McClintock, a Latin professor at
-                          Hampden-Sydney College in Virginia, looked up one of
-                          the more obscure
-                        </p>
-                        <div className="flex gap-x-2  h-9 my-3">
-                          <img src={Html} />
-                          <img src={Css} />
-                          <img src={Js} />
-                        </div>
-                        <a
-                          href="https://splashscreenbykuceli.netlify.app/"
-                          target="_blank"
-                          class="relative inline-flex items-center px-10 py-2 overflow-hidden text-base font-medium text-[#333333] border-2 border-[#333333] hover:text-white group hover:bg-gray-50"
-                        >
-                          <span class="absolute left-0 block w-full h-0 transition-all bg-[#333333] opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
-                          <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-2 ease">
-                            <svg
-                              class="w-4 h-4"
-                              fill="none"
-                              stroke="currentColor"
-                              viewBox="0 0 24 24"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M14 5l7 7m0 0l-7 7m7-7H3"
-                              ></path>
-                            </svg>
-                          </span>
-                          <span class="relative font-medium">View Project</span>
-                        </a>
-                      </div>
-                    </div>
-                  </ModalContent>
-                  {/* );
-                  })} */}
+        <div className="h-full">
+          <Background ref={modalRef} onClick={closeSplashScreenModal}>
+            <animated.div style={animation}>
+              <div className="sm:w-[600px] md:w-[700px] lg:w-[680px] mx-10 sm:mx-0 p-12">
+                <div
+                  className="cursor-pointer absolute right-2 top-2 border-2 border-solid border-white rounded-lg hover:rounded-full transition-all duration-600 p-1"
+                  onClick={() => setShowSplashScreenModal((prev) => !prev)}
+                >
+                  <AiOutlineClose color="white" size={25} />
                 </div>
-              </ModalWrapper>
-            </div>
-          </animated.div>
-        </Background>
+                <ModalWrapper showSplashScreenModal={showSplashScreenModal}>
+                  <div className="px-0 sm:px-[2rem]">
+                    <ModalContent>
+                      <div className="flex gap-x-8 items-center">
+                        <div className="w-[50%]">
+                          <img src={Img1} className=" " />
+                        </div>
+                        <div className=" w-[50%] ">
+                          <p className="font-bold text-3xl mb-3 tracking-wider">
+                            Splash Screen
+                          </p>
+                          <p className="text-sm mt-">
+                            Contrary to popular belief, Lorem Ipsum is not
+                            simply random text. It has roots in a piece of
+                            classical Latin literature from 45 BC, making it
+                            over 2000 years old. Richard McClintock, a Latin
+                            professor at Hampden-Sydney College in Virginia,
+                            looked up one of the more obscure
+                          </p>
+                          <div className="flex gap-x-2  h-9 my-3">
+                            <img src={Html} />
+                            <img src={Css} />
+                            <img src={Js} />
+                          </div>
+                          <a
+                            href="https://splashscreenbykuceli.netlify.app/"
+                            target="_blank"
+                            class="relative inline-flex items-center px-10 py-2 overflow-hidden text-base font-medium text-[#333333] border-2 border-[#333333] hover:text-white group hover:bg-gray-50"
+                          >
+                            <span class="absolute left-0 block w-full h-0 transition-all bg-[#333333] opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                            <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-2 ease">
+                              <svg
+                                class="w-4 h-4"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                                ></path>
+                              </svg>
+                            </span>
+                            <span class="relative font-medium">
+                              View Project
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </ModalContent>
+                    {/* );
+                  })} */}
+                  </div>
+                </ModalWrapper>
+              </div>
+            </animated.div>
+          </Background>
+        </div>
       ) : null}
     </>
   );
