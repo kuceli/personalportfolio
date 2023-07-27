@@ -86,12 +86,11 @@ const MiniProjects = ({ showMiniProjectsModal, setShowMiniProjectsModal }) => {
                           Mini Projects
                         </p>
                         <p className="text-sm mt-">
-                          Contrary to popular belief, Lorem Ipsum is not simply
-                          A few of some projects that I have built to help
-                          sharpen my skills. Some are replicated projects while
-                          others are original designs. These projects were built
-                          using a mix of some or all of these language: HTML,
-                          CSS, JS and ReactJs.
+                          A few projects that I have built to help sharpen my
+                          skills. Some are replicated projects while others are
+                          original designs. These projects were built using a
+                          mix of some or all of these language: HTML, CSS, JS
+                          and ReactJs.
                         </p>
                         <div className="flex gap-x-2  h-9 my-3">
                           <img src={Html} />

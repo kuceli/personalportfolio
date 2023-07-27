@@ -86,12 +86,9 @@ const Mealy = ({ showMealyModal, setShowMealyModal }) => {
                           MEALY
                         </p>
                         <p className="text-sm mt-">
-                          Contrary to popular belief, Lorem Ipsum is not simply
-                          random text. It has roots in a piece of classical
-                          Latin literature from 45 BC, making it over 2000 years
-                          old. Richard McClintock, a Latin professor at
-                          Hampden-Sydney College in Virginia, looked up one of
-                          the more obscure
+                          Mealy is a food ordering app designed by I and my team
+                          as a final project to sum up our software development
+                          course at Stutern.
                         </p>
                         <div className="flex gap-x-2  h-9 my-3">
                           <img src={Html} />

@@ -24,14 +24,14 @@ const About = () => {
         </div>
         {/* About Me Details */}
         <div className="flex flex-col md:flex-row gap-y-8 gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-7 ">
-          <div className="w-[100%] md:w-[50%] flex flex-col justify-between text-justify m-auto">
+          <div className="w-[100%] md:w-[50%] flex flex-col justify-between text-justify m-auto ">
             <p>
               Hi there! My name is
               <span className="font-semibold"> Kuceli Englama.</span> I am an
               extremely passionate and dedicated Software Engineer who can carry
               out your tasks to perfection.
             </p>
-            <p className="">
+            <p className="mt-2">
               As the best Software Engineering graduate at the American
               University of Nigeria (class of 2022) coupled with a few online
               courses and internship experiences, I have acquired the skills and
@@ -39,31 +39,31 @@ const About = () => {
             </p>
           </div>
 
-          <div className="w-[50%] hidden md:block">
+          <div className="w-[50%] hidden md:block  ">
             <table className="">
               <tr className="">
-                <td className="font-semibold pb-2 ">Name:</td>
-                <td className=" pl-8 pb-2">Kuceli Susan Englama</td>
+                <td className="font-semibold pb-1 ">Name:</td>
+                <td className=" pl-8 pb-1">Kuceli Susan Englama</td>
               </tr>
               <tr className="">
-                <td className="font-semibold pb-2 ">Age:</td>
-                <td className=" pl-8 pb-2">22 Years Old</td>
+                <td className="font-semibold pb-1 ">Age:</td>
+                <td className=" pl-8 pb-1">22 Years Old</td>
               </tr>
               <tr>
-                <td className="font-semibold pb-2">Address:</td>
-                <td className=" pl-8 pb-2">Abuja, Nigeria</td>
+                <td className="font-semibold pb-1">Address:</td>
+                <td className=" pl-8 pb-1">Abuja, Nigeria</td>
               </tr>
               <tr>
-                <td className="font-semibold pb-2 ">State of Origin:</td>
-                <td className=" pl-8 pb-2">Borno State</td>
+                <td className="font-semibold pb-1 ">State of Origin:</td>
+                <td className=" pl-8 pb-1">Borno State</td>
               </tr>
               <tr>
-                <td className="font-semibold pb-2 ">Languages:</td>
-                <td className=" pl-8 pb-2">English | Hausa</td>
+                <td className="font-semibold pb-1 ">Languages:</td>
+                <td className=" pl-8 pb-1">English | Hausa</td>
               </tr>
               <tr>
-                <td className="font-semibold pb-2 ">Mail:</td>
-                <td className="pl-8 pb-2">englamakuceli@gmail.com</td>
+                <td className="font-semibold pb-1 ">Mail:</td>
+                <td className="pl-8 pb-1">englamakuceli@gmail.com</td>
               </tr>
               <tr>
                 <td className="font-semibold ">Phone:</td>
@@ -73,7 +73,7 @@ const About = () => {
           </div>
         </div>
         {/* Services and Interests */}
-        <div className="flex  flex-col sm:flex-row gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-12">
+        <div className="flex  flex-col sm:flex-row gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-10">
           <div className="w-[100%] sm:w-[50%]">
             <div className="flex items-center justify-between pb-7">
               <p className="md:w-[50%] xl:w-[40%] font-bold tracking-[0.35rem] text-[#333333] text-[16px]">
@@ -162,7 +162,7 @@ const About = () => {
         <HorizontalProgressBar />
         {/* Education and Experience */}
         <div>
-          <div className="hidden md:flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-12">
+          <div className="hidden md:flex gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-10">
             <div className="w-[50%]">
               <div className="flex items-center justify-between pb-7">
                 <p className="md:w-[60%] xl:w-[40%] font-bold tracking-[0.35rem] text-[#333333] text-[16px]">
@@ -186,7 +186,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <p className="w-[100%] mt-12 font-bold tracking-[0.35rem] text-[#333333] text-[16px] block md:hidden">
+          <p className="w-[100%] mt-10 font-bold tracking-[0.35rem] text-[#333333] text-[16px] block md:hidden">
             EDUCATION & EXPERIENCE
           </p>
           <div className="">

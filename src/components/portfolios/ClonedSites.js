@@ -85,10 +85,10 @@ const ClonedSites = ({ showClonedSitesModal, setShowClonedSitesModal }) => {
                           Cloned Sites
                         </p>
                         <p className="text-sm mt-">
-                          Contrary to popular belief, Lorem Ipsum is not simply
-                          random text. It has roots in a piece of classical
-                          Latin literature from 45 BC, making it over 2000 years
-                          These projects were built using HTMK, CSS and JS.
+                          These are webpages that I impeccably replicated
+                          including netflix landing page, udemy landing page and
+                          google search page among others. I designed them using
+                          HTML, CSS and JS.
                         </p>
                         <div className="flex gap-x-2  h-9 my-3">
                           <img src={Html} />

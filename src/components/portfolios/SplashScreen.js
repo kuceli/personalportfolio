@@ -86,12 +86,9 @@ const SplashScreen = ({ showSplashScreenModal, setShowSplashScreenModal }) => {
                             Splash Screen
                           </p>
                           <p className="text-sm mt-">
-                            Contrary to popular belief, Lorem Ipsum is not
-                            simply random text. It has roots in a piece of
-                            classical Latin literature from 45 BC, making it
-                            over 2000 years old. Richard McClintock, a Latin
-                            professor at Hampden-Sydney College in Virginia,
-                            looked up one of the more obscure
+                            This was a challenge given to me at iTech Computer
+                            Education, Abuja to work on the functionality of
+                            this splash screen without prior knowledge of Js.
                           </p>
                           <div className="flex gap-x-2  h-9 my-3">
                             <img src={Html} />
