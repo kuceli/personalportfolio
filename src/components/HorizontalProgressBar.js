@@ -9,7 +9,7 @@ const HorizontalProgressBar = () => {
   }, []);
   return (
     <>
-      <div className="relative flex flex-col sm:flex-row gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-7">
+      <div className="relative flex flex-col sm:flex-row gap-x-16 w-[100%] justify-between text-[#7D7789] text-[14px] leading-6 mt-7">
         <div className="w-[100%] sm:w-[50%] flex flex-col justify-between">
           <div className="skill-box">
             <span className="title">HTML</span>

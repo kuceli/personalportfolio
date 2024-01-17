@@ -11,10 +11,7 @@ const Timeline = () => {
           <img src={SchoolIcon} />
           <div className="text-box">
             <h2 className="title">Cornell University</h2>
-            <p className="position">
-              MEng. Computer Science
-              <span className=" text-[red] text-[10px]"> (In View)</span>
-            </p>
+            <p className="position">MEng. Computer Science</p>
 
             <p className="date">August 2023 - May 2024</p>
 

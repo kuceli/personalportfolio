@@ -5,7 +5,12 @@ import "aos/dist/aos.css";
 
 const Home = () => {
   const [text] = useTypewriter({
-    words: ["Software Developer", "Software Designer", "Writer"],
+    words: [
+      "Project Manager",
+      "Front-End Developer",
+      "Software Designer",
+      "Writer",
+    ],
     loop: {},
     typeSpeed: 120,
     deleteSpeed: 80,
@@ -37,7 +42,7 @@ const Home = () => {
         </p>
         <div className="w-24 h-1 bg-[#333333]"></div>
         <p className="font-normal text-xl sm:text-2xl py-8 text-[#FFBC6A]">
-          Creative
+          Enthusiastic
           <span className="font-bold text-[#333333]">
             {" "}
             {text} <Cursor />
@@ -45,7 +50,7 @@ const Home = () => {
         </p>
         <div className="flex gap-x-6">
           <a
-            href="https://drive.google.com/file/d/19R4DeUMmCbPfiVnmi4YR8NECY8gIPUSF/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1oqNYl3WlITh_t_CZWgjiAHWqarrVQ9lC/view?usp=sharing"
             target="_blank"
             class="relative inline-flex items-center px-9 py-2 overflow-hidden text-lg font-medium text-[#333333] border-2 border-[#333333] hover:text-white group hover:bg-gray-50"
           >

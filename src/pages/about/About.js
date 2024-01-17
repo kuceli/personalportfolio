@@ -23,19 +23,23 @@ const About = () => {
           </div>
         </div>
         {/* About Me Details */}
-        <div className="flex flex-col md:flex-row gap-y-8 gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-7 ">
+        <div className="flex flex-col md:flex-row gap-y-8 gap-x-16 w-[100%] justify-between text-[#7D7789] text-[14px] leading-2 mt-7 ">
           <div className="w-[100%] md:w-[50%] flex flex-col justify-between text-justify m-auto ">
             <p>
-              Hi there! My name is
-              <span className="font-semibold"> Kuceli Englama.</span> I am an
-              extremely passionate and dedicated Software Engineer who can carry
-              out your tasks to perfection.
+              👋 Hello there! I'm
+              <span className="font-semibold"> Kuceli Englama, </span> a
+              spirited and committed Software Engineer and aspiring
+              Project/Product Manager with a flair for perfection.
             </p>
             <p className="mt-2">
-              As the best Software Engineering graduate at the American
-              University of Nigeria (class of 2022) coupled with a few online
-              courses and internship experiences, I have acquired the skills and
-              knowledge necessary to make your project a success!
+              My journey is a blend of academic excellence, hands-on experience,
+              and a passion for crafting solutions that stand out.
+            </p>
+            <p className="mt-2">
+              Let's embark on a collaborative journey where innovation meets
+              precision, and your aspirations meet flawless execution. I'm
+              excited to bring my expertise to the table and contribute to the
+              success of your project! 💻✨
             </p>
           </div>
 
@@ -50,12 +54,12 @@ const About = () => {
                 <td className=" pl-8 pb-1">22 Years Old</td>
               </tr>
               <tr>
-                <td className="font-semibold pb-1">Address:</td>
-                <td className=" pl-8 pb-1">Abuja, Nigeria</td>
+                <td className="font-semibold pb-1">Current Location:</td>
+                <td className=" pl-8 pb-1">Ithaca, NY, USA</td>
               </tr>
               <tr>
-                <td className="font-semibold pb-1 ">State of Origin:</td>
-                <td className=" pl-8 pb-1">Borno State</td>
+                <td className="font-semibold pb-1 ">Place of Origin:</td>
+                <td className=" pl-8 pb-1">Borno State, Nigeria</td>
               </tr>
               <tr>
                 <td className="font-semibold pb-1 ">Languages:</td>
@@ -67,13 +71,13 @@ const About = () => {
               </tr>
               <tr>
                 <td className="font-semibold ">Phone:</td>
-                <td className="pl-8">+234 903 009 1183</td>
+                <td className="pl-8">+1 (607) 327-7588</td>
               </tr>
             </table>
           </div>
         </div>
         {/* Services and Interests */}
-        <div className="flex  flex-col sm:flex-row gap-x-16 w-[100%] justify-between text-[#7D7789] text-[15px] leading-6 mt-10">
+        <div className="flex  flex-col sm:flex-row gap-x-16 w-[100%] justify-between text-[#7D7789] text-[14px] leading-6 mt-10">
           <div className="w-[100%] sm:w-[50%]">
             <div className="flex items-center justify-between pb-7">
               <p className="md:w-[50%] xl:w-[40%] font-bold tracking-[0.35rem] text-[#333333] text-[16px]">
@@ -95,13 +99,13 @@ const About = () => {
                 <span className="text-[#FFBC6A] ">
                   <AiOutlineAntDesign size={16} />
                 </span>
-                <p> Software Design</p>
+                <p> Project Management</p>
               </li>
               <li className="flex items-center gap-x-5 pb-2">
                 <span className="text-[#FFBC6A] ">
                   <AiOutlineAntDesign size={16} />
                 </span>
-                <p> Software Testing & Maintenance </p>
+                <p> Program Management </p>
               </li>
               <li className="flex items-center gap-x-5 pb-2">
                 <span className="text-[#FFBC6A] ">
@@ -144,7 +148,7 @@ const About = () => {
                 <span className="text-[#FFBC6A] ">
                   <AiOutlineAntDesign size={16} />
                 </span>
-                <p> Playing Mobile Games</p>
+                <p> Volunteering</p>
               </li>
             </ul>
           </div>

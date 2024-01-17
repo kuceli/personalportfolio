@@ -78,13 +78,13 @@ const Contact = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-x-6 gap-y-6 justify-between md:h-[6rem] mt-8 md:mt-0">
         <a
-          href="https://www.google.ng/maps/place/Federal+Capital+Territory/@8.9138653,6.9223605,10z/data=!3m1!4b1!4m6!3m5!1s0x104e6157ce3eeda9:0x32af1c368be32dfc!8m2!3d8.8940691!4d7.1860402!16zL20vMDRzdnlo?entry=ttu"
+          href="https://maps.app.goo.gl/QFFAqoWmwKBXm1wu7"
           target="_blank"
           style={cardStyle}
           className="lg:text-[90%] h-[6rem] w-[100%] md:w-[35%] xl:w-[30%] border border-solid border-[#E5E9ED]-500 hover:bg-[#333333] hover:text-[#fff] text-[#7D7789] flex flex-col gap-2 justify-center items-center"
         >
           <MdLocationOn />
-          <p>Abuja, Nigeria</p>
+          <p>Ithaca, NY, USA</p>
         </a>
         <a
           href="mailto:englamakuceli@gmail.com"
@@ -95,19 +95,19 @@ const Contact = () => {
           <p>englamakuceli@gmail.com</p>
         </a>
         <a
-          href="tel:+2349030091183"
+          href="tel:+16073277588"
           style={cardStyle}
           className="lg:text-[90%] h-[6rem] w-[100%] mb-8 md:mb-0 md:w-[35%] xl:w-[30%] border border-solid border-[#E5E9ED]-500 text-[#7D7789] hover:bg-[#333333] hover:text-[#fff] flex flex-col gap-2 items-center justify-center"
         >
           <BsPhoneFill />
-          <p>+234 903 009 1183</p>
+          <p>+1 (607) 327-7588</p>
         </a>
       </div>
       <div className="flex flex-col md:flex-row gap-x-5 w-[100%]">
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col gap-y-5 w-[100%] md:w-[50%] pb-5 md:pb-0"
+          className="flex flex-col gap-y-5 w-[100%] pb-5 md:pb-0"
         >
           <input
             type="text"
@@ -138,13 +138,13 @@ const Contact = () => {
           <input
             type="submit"
             style={ButtonStyle}
-            className=" bg-[#333333] hover:bg-[#F6FBFF] text-[#ffffff] hover:text-[#333333] w-[60%] xl:w-[50%] cursor-pointer"
+            className=" bg-[#333333] hover:bg-[#F6FBFF] text-[#ffffff] hover:text-[#333333] w-[60%] xl:w-[50%] cursor-pointer m-auto"
             value="Send Message"
           />
         </form>
-        <div className="hidden md:block w-[50%] h-[100%]">
+        {/* <div className="hidden md:block w-[50%] h-[100%]">
           <Maps />
-        </div>
+        </div> */}
       </div>
     </div>
   );
