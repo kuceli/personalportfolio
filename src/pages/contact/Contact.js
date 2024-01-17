@@ -5,7 +5,6 @@ import { BsPhoneFill } from "react-icons/bs";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import emailjs from "@emailjs/browser";
-import Maps from "../../components/Maps";
 
 import Swal from "sweetalert2";
 
