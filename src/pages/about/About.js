@@ -27,9 +27,9 @@ const About = () => {
           <div className="w-[100%] md:w-[50%] flex flex-col justify-between text-justify m-auto ">
             <p>
               👋 Hello there! I'm
-              <span className="font-semibold"> Kuceli Englama, </span> a
-              spirited and committed Software Engineer and aspiring
-              Project/Product Manager with a flair for perfection.
+              <span className="font-semibold"> Kuceli, </span> a spirited and
+              committed Software Engineer and aspiring Project/Product Manager
+              with a flair for perfection.
             </p>
             <p className="mt-2">
               My journey is a blend of academic excellence, hands-on experience,
