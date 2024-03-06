@@ -12,7 +12,7 @@ import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Layout = () => {
   const [activeTab, setActiveTab] = useState("tab1");
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const handleNav = () => {
     setIsOpen(!isOpen);
   };
