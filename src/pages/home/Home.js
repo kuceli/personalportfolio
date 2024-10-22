@@ -50,7 +50,7 @@ const Home = () => {
         </p>
         <div className="flex gap-x-6">
           <a
-            href="https://drive.google.com/file/d/15fjg7hwWqRQIvimu0vLA2eBF-E-uJzkJ/view?usp=sharin"
+            href="https://drive.google.com/file/d/15fjg7hwWqRQIvimu0vLA2eBF-E-uJzkJ/view?usp=sharing"
             target="_blank"
             class="relative inline-flex items-center px-9 py-2 overflow-hidden text-lg font-medium text-[#333333] border-2 border-[#333333] hover:text-white group hover:bg-gray-50"
           >
