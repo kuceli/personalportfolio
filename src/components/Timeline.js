@@ -69,15 +69,7 @@ const Timeline = () => {
             <span className="right-container-arrow"></span>
           </div>
         </div>
-     <div className="container right-container">
-          <img src={WorkIcon} />
-          <div className="text-box">
-            <h2 className="title">The Favor Busam Foundation</h2>
-            <p className="date">July 2019 - September 2024</p>
-            <p className="position">Co-Founder</p>
-            <span className="right-container-arrow"></span>
-          </div>
-        </div>
+    
 
       <div className="container right-container">
           <img src={WorkIcon} />
@@ -85,6 +77,15 @@ const Timeline = () => {
             <h2 className="title">Visqorium</h2>
             <p className="date">July 2020 - September 2022</p>
             <p className="position">Founding Board Member, COO, Executive Secretary</p>
+            <span className="right-container-arrow"></span>
+          </div>
+        </div>
+     <div className="container right-container">
+          <img src={WorkIcon} />
+          <div className="text-box">
+            <h2 className="title">The Favor Busam Foundation</h2>
+            <p className="date">July 2019 - September 2024</p>
+            <p className="position">Co-Founder</p>
             <span className="right-container-arrow"></span>
           </div>
         </div>
