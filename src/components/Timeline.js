@@ -17,15 +17,6 @@ const Timeline = () => {
           </div>
         </div>
     
-      <div className="container right-container">
-          <img src={WorkIcon} />
-          <div className="text-box">
-            <h2 className="title">MeasureMe LLC</h2>
-            <p className="date">July 2024 - Present</p>
-            <p className="position">Front End Developer</p>
-            <span className="right-container-arrow"></span>
-          </div>
-        </div>
     
      <div className="container right-container">
           <img src={WorkIcon} />
