@@ -40,25 +40,8 @@ const Timeline = () => {
           </div>
         </div>
 
-        <div className="container right-container">
-          <img src={WorkIcon} />
-          <div className="text-box">
-            <h2 className="title">Federal Mortgage Bank of Nigeria</h2>
-            <p className="date">August 2022 - May 2023</p>
-            <p className="position">NYSC | Graduate Intern</p>
-            <span className="right-container-arrow"></span>
-          </div>
-        </div>
-
-        <div className="container left-container">
-          <img src={SchoolIcon} />
-          <div className="text-box">
-            <h2 className="title">American University of Nigeria</h2>
-            <p className="position">BSc. Software Engineering (Hons)</p>
-            <p className="date">August 2018 - May 2022</p>
-            <span className="left-container-arrow"></span>
-          </div>
-        </div>
+    
+       
 
         <div className="container right-container">
           <img src={WorkIcon} />
@@ -87,6 +70,15 @@ const Timeline = () => {
             <p className="date">July 2019 - September 2024</p>
             <p className="position">Co-Founder</p>
             <span className="right-container-arrow"></span>
+          </div>
+        </div>
+     <div className="container left-container">
+          <img src={SchoolIcon} />
+          <div className="text-box">
+            <h2 className="title">American University of Nigeria</h2>
+            <p className="position">BSc. Software Engineering (Hons)</p>
+            <p className="date">August 2018 - May 2022</p>
+            <span className="left-container-arrow"></span>
           </div>
         </div>
       </div>
