@@ -7,6 +7,16 @@ const Timeline = () => {
   return (
     <>
       <div className="timeline">
+     <div className="container right-container">
+          <img src={WorkIcon} />
+          <div className="text-box">
+            <h2 className="title">uTech Nationwide Emission Analyzer Project</h2>
+            <p className="date">September 2023 - May 2024</p>
+            <p className="position">Front End Developer</p>
+            <span className="right-container-arrow"></span>
+          </div>
+        </div>
+    
         <div className="container left-container">
           <img src={SchoolIcon} />
           <div className="text-box">
