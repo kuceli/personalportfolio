@@ -77,13 +77,13 @@ const Contact = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-x-6 gap-y-6 justify-between md:h-[6rem] mt-8 md:mt-0">
         <a
-          href="https://maps.app.goo.gl/QFFAqoWmwKBXm1wu7"
+          href="https://maps.app.goo.gl/GzLZVwzGXkrLNesRA"
           target="_blank"
           style={cardStyle}
           className="lg:text-[90%] h-[6rem] w-[100%] md:w-[35%] xl:w-[30%] border border-solid border-[#E5E9ED]-500 hover:bg-[#333333] hover:text-[#fff] text-[#7D7789] flex flex-col gap-2 justify-center items-center"
         >
           <MdLocationOn />
-          <p>Ithaca, NY, USA</p>
+          <p>Glen Burnie, Maryland, USA</p>
         </a>
         <a
           href="mailto:englamakuceli@gmail.com"
