@@ -51,11 +51,11 @@ const About = () => {
               </tr>
               <tr className="">
                 <td className="font-semibold pb-1 ">Age:</td>
-                <td className=" pl-8 pb-1">22 Years Old</td>
+                <td className=" pl-8 pb-1">23 Years Old</td>
               </tr>
               <tr>
                 <td className="font-semibold pb-1">Current Location:</td>
-                <td className=" pl-8 pb-1">Ithaca, NY, USA</td>
+                <td className=" pl-8 pb-1">Glen Burnie, MD, USA</td>
               </tr>
               <tr>
                 <td className="font-semibold pb-1 ">Place of Origin:</td>
