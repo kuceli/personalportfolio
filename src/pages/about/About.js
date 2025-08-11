@@ -28,8 +28,7 @@ const About = () => {
             <p>
               👋 Hello there! I'm
               <span className="font-semibold"> Kuceli, </span> a spirited and
-              committed Software Engineer and aspiring Project/Product Manager
-              with a flair for perfection.
+              committed Software Engineer with a flair for perfection.
             </p>
             <p className="mt-2">
               My journey is a blend of academic excellence, hands-on experience,
@@ -51,11 +50,11 @@ const About = () => {
               </tr>
               <tr className="">
                 <td className="font-semibold pb-1 ">Age:</td>
-                <td className=" pl-8 pb-1">23 Years Old</td>
+                <td className=" pl-8 pb-1">24 Years Old</td>
               </tr>
               <tr>
                 <td className="font-semibold pb-1">Current Location:</td>
-                <td className=" pl-8 pb-1">Glen Burnie, MD, USA</td>
+                <td className=" pl-8 pb-1">USA</td>
               </tr>
               <tr>
                 <td className="font-semibold pb-1 ">Place of Origin:</td>

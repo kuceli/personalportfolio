@@ -7,27 +7,28 @@ const Timeline = () => {
   return (
     <>
       <div className="timeline">
-      <div className="container right-container">
+        <div className="container right-container">
           <img src={WorkIcon} />
           <div className="text-box">
             <h2 className="title">Freelancer</h2>
             <p className="date">July 2024 - Present</p>
-            <p className="position">Web Developer</p>
+            <p className="position">Web Developer and IT Specialist</p>
             <span className="right-container-arrow"></span>
           </div>
         </div>
-    
-    
-     <div className="container right-container">
+
+        <div className="container right-container">
           <img src={WorkIcon} />
           <div className="text-box">
-            <h2 className="title">uTech Nationwide Emission Analyzer Project</h2>
+            <h2 className="title">
+              uTech Nationwide Emission Analyzer Project
+            </h2>
             <p className="date">September 2023 - May 2024</p>
             <p className="position">Front End Developer</p>
             <span className="right-container-arrow"></span>
           </div>
         </div>
-    
+
         <div className="container left-container">
           <img src={SchoolIcon} />
           <div className="text-box">
@@ -40,9 +41,6 @@ const Timeline = () => {
           </div>
         </div>
 
-    
-       
-
         <div className="container right-container">
           <img src={WorkIcon} />
           <div className="text-box">
@@ -52,18 +50,19 @@ const Timeline = () => {
             <span className="right-container-arrow"></span>
           </div>
         </div>
-    
 
-      <div className="container right-container">
+        <div className="container right-container">
           <img src={WorkIcon} />
           <div className="text-box">
             <h2 className="title">Visqorium</h2>
             <p className="date">July 2020 - September 2022</p>
-            <p className="position">Founding Board Member, COO, Executive Secretary</p>
+            <p className="position">
+              Founding Board Member, COO, Executive Secretary
+            </p>
             <span className="right-container-arrow"></span>
           </div>
         </div>
-     <div className="container right-container">
+        <div className="container right-container">
           <img src={WorkIcon} />
           <div className="text-box">
             <h2 className="title">The Favor Busam Foundation</h2>
@@ -72,7 +71,7 @@ const Timeline = () => {
             <span className="right-container-arrow"></span>
           </div>
         </div>
-     <div className="container left-container">
+        <div className="container left-container">
           <img src={SchoolIcon} />
           <div className="text-box">
             <h2 className="title">American University of Nigeria</h2>
